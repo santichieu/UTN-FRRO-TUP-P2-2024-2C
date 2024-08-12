@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post" target="_self">
+        <fieldset>
+            <strong>Nombre:</strong><br>
+            <input type="text" name="firstname" id="firstname" placeholder="Escribe tu nombre" maxlength="30" /><br />
+            <strong>Apellido:</strong><br>
+            <input type="text" name="firstname" id="firstname" placeholder="Escriba su Apellido" maxlength="30" /><br />
+            <strong>Email:</strong><br>
+            <input type="email" name="email" id="email" placeholder="correo@empresa.com" required /> <br>
+
+            <strong>Asunto</strong><br>
+            <select name="Asunto" multiple>
+            <option value="1">Pedir presupuesto web</option>
+            <option value="2">Solicitar cita previa</option>
+            <option value="3">Otros</option>
+          </select><br>
+
+            <strong>¿Cómo nos a conocido?</strong> <br>
+            <input type="checkbox" name="peliculas" id="checkbox" value="1" /> Un amigo
+            <input type="checkbox" name="peliculas" id="checkbox" value="2" /> Googleando
+            <input type="checkbox" name="peliculas" id="checkbox" value="3" /> Buzoneo
+            <input type="checkbox" name="peliculas" id="checkbox" value="4" /> Otros
+
+            <br /><br />
+            <br /><br />
+            <input type="submit" value="ENVIAR" />
+            <input type="reset" value="BORRAR"><br /><br />
+        </fieldset>
+    </form>
+
+</html>
