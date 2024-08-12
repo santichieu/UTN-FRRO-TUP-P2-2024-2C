@@ -68,8 +68,8 @@ Internet es una inmensa red de computadoras interconectadas entre si alrededor d
 
 **Escribe una estructura básica de un documento HTML y explica cada una de sus partes principales.**
 
-´´´html
-<!DOCTYPE html>
+`
+    <!DOCTYPE html>
     <html lang="es">
     <head>
         <meta charset="UTF-8">
@@ -81,9 +81,22 @@ Internet es una inmensa red de computadoras interconectadas entre si alrededor d
         <p>Este es un párrafo de ejemplo.</p>
     </body>
     </html>
+`
     
 
 -      Etiqueta !DOCTYPE html: Le va a indicar al navegador que el documento es de tipo HTML5.
 -      Etiqueta <html>: Es la raiz del documento HTML. Todo el contenido debe estar dentro de esta etiqueta.
 -      Atributo lang="es": Indica el idioma principal del contenido del documento, en este caso, español
--      Seccion <head>
+-      Seccion <head>: Contiene metadatos sobre el documento.
+-      Meta etiqueta charset= "UTF-8": Define el conjunto de caracteres utilizado en el documento.UTF-8 es una codificación de caracteres ampliamente utilizada.
+-      Meta etiqueta viewport: Configura cómo se debe mostrar la página en dispositivos móviles. width=device-width hace que el ancho de la página sea igual al ancho de la pantalla del dispositivo, y initial-scale=1.0 establece el nivel de zoom inicial.
+-      Etiqueta <title>: Define el título de la página que aparece en la pestaña del navegador y en los resultados de búsqueda.
+-      Sección <body>: Contiene todo el contenido visible de la página web, como texto, imágenes, videos, enlaces, etc.
+-      Etiqueta <h1>: Representa el encabezado principal de la página. Es el título más importante y generalmente se utiliza una sola vez por página.
+-      Etiqueta <p>: Define un párrafo de texto. Es una de las etiquetas más comunes para mostrar bloques de texto.
+
+
+## 2.  Etiquetas HTML:
+
+**¿Qué son las etiquetas en HTML y cómo se utilizan?**
+ Una etiqueta HTML está compuesta por un nombre de etiqueta encerrado entre corchetes angulares (`< >`). La mayoría de las etiquetas vienen en pares: una etiqueta de apertura y una etiqueta de cierre, con el contenido entre ellas.
