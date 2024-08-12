@@ -68,6 +68,7 @@ Internet es una inmensa red de computadoras interconectadas entre si alrededor d
 
 **Escribe una estructura básica de un documento HTML y explica cada una de sus partes principales.**
 
+´´´html
     <!DOCTYPE html>
     <html lang="es">
     <head>
@@ -81,5 +82,7 @@ Internet es una inmensa red de computadoras interconectadas entre si alrededor d
     </body>
     </html>
 
--       <!DOCTYPE html>:
-- **Doctype:** Define el tipo de documento y la versión de HTML que se está utilizando. En este caso, <!DOCTYPE html> indica que el documento está escrito en HTML5.
+-      Etiqueta !DOCTYPE html: Le va a indicar al navegador que el documento es de tipo HTML5.
+-      Etiqueta <html>: Es la raiz del documento HTML. Todo el contenido debe estar dentro de esta etiqueta.
+-      Atributo lang="es": Indica el idioma principal del contenido del documento, en este caso, español
+-      Seccion <head>
