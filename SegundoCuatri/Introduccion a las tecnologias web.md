@@ -81,4 +81,5 @@ Internet es una inmensa red de computadoras interconectadas entre si alrededor d
     </body>
     </html>
 
--    <!DOCTYPE html>: **Doctype:** Define el tipo de documento y la versión de HTML que se está utilizando. En este caso, <!DOCTYPE html> indica que el documento está escrito en HTML5.
+-       <!DOCTYPE html>:
+- **Doctype:** Define el tipo de documento y la versión de HTML que se está utilizando. En este caso, <!DOCTYPE html> indica que el documento está escrito en HTML5.
