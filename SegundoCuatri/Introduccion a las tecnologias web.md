@@ -91,12 +91,49 @@ Internet es una inmensa red de computadoras interconectadas entre si alrededor d
 - **Meta etiqueta charset= "UTF-8":** Define el conjunto de caracteres utilizado en el documento.UTF-8 es una codificación de caracteres ampliamente utilizada.
 - **Meta etiqueta viewport:** Configura cómo se debe mostrar la página en dispositivos móviles. width=device-width hace que el ancho de la página sea igual al ancho de la pantalla del dispositivo, y initial-scale=1.0 establece el nivel de zoom inicial.
 - Etiqueta title: Define el título de la página que aparece en la pestaña del navegador y en los resultados de búsqueda.
-- Sección body: Contiene todo el contenido visible de la página web, como texto, imágenes, videos, enlaces, etc.
+- **Sección body:** Contiene todo el contenido visible de la página web, como texto, imágenes, videos, enlaces, etc.
 - **Etiqueta h1:** Representa el encabezado principal de la página. Es el título más importante y generalmente se utiliza una sola vez por página.
--      Etiqueta <p>: Define un párrafo de texto. Es una de las etiquetas más comunes para mostrar bloques de texto.
+- **Etiqueta p:** Define un párrafo de texto. Es una de las etiquetas más comunes para mostrar bloques de texto.
 
 
 ## 2.  Etiquetas HTML:
 
 **¿Qué son las etiquetas en HTML y cómo se utilizan?**
- Una etiqueta HTML está compuesta por un nombre de etiqueta encerrado entre corchetes angulares (`< >`). La mayoría de las etiquetas vienen en pares: una etiqueta de apertura y una etiqueta de cierre, con el contenido entre ellas.
+ Una etiqueta HTML está compuesta por un nombre de etiqueta encerrado entre corchetes angulares (< >). La mayoría de las etiquetas vienen en pares: una etiqueta de apertura y una etiqueta de cierre, con el contenido entre ellas.
+
+ **Como se utilizan las etiquetas:**
+ - **Etiqueta de apertura:** indica el inicio de un elemento HTML
+ - **Etiqueta de cierre:** La etiqueta de cierre marca el final del elemento HTML. Es similar a la etiqueta de apertura, pero con una barra inclinada.
+ - **Contenido entre las etiquetas:** Entre la etiqueta de apertura y la de cierre, se coloca el contenido que se desea mostrar o estructurar en la página.
+ - **Etiquetas auto-cerradas:** Algunas etiquetas no requieren un par de cierre porque no contienen contenido entre ellas. Estas se denominan etiquetas auto-cerradas y suelen incluir una barra inclinada antes del cierre del corchete angular.
+ - **Atributos en las etiquetas:** Las etiquetas HTML también pueden tener atributos, que proporcionan información adicional sobre el elemento
+
+**Menciona y describe brevemente al menos cinco etiquetas comunes en HTML.**
+- **`<h1> a <h6>`:** Estas etiquetas se utilizan para definir encabezados o títulos en una página web. `<h1>` es el nivel mas importante y suele usarse para el titulo principal, a su vez `<h6>` es el nivel menos importante.
+- **`<p>`:** Define un párrafo de texto.
+- **`<a>`:** Crea un enlace a otra página. El atributo `href` especifica la URL del destino.
+- **`<div>`:** Define una sección o un contenedor en un documento. Se utiliza para agrupar contenido, es un elemento de bloque.
+- **`<img>`:** Se usa para insertar imágenes en una página web. Los atributos comunes incluyen `src` (es la fuente de la imagen) y `alt` (describe la imagen).
+
+## 3. Atributos HTML:
+**¿Qué son los atributos en HTML y para qué se utilizan?**
+Los atributos en HTML son componentes adicionales que se agregan a las etiquetas HTML para proporcionar informacion y controlar su comportamiento o apariencia.
+
+**Se utilizan para:**
+- Proporcionar Información Adicional
+- Modificar el Comportamiento de un Elemento
+- Definir Características Visuales
+- Identificación y Referencia
+- Accesibilidad
+
+**Da un ejemplo de una etiqueta HTML con atributos y explica su función**
+   `<a href="https://www.paginaejemplo.com" target="_blank" title="Pagina">Pagina</a>`
+
+- **Etiqueta `<a>`:** Es la etiqueta que define un hipervínculo o enlace en HTML. El contenido entre la etiqueta de apertura `<a>` y la etiqueta de cierre `</a>` se muestra como un enlace.
+
+**Atributos:**
+- **`href="https://www.paginaejemplo.com"`:** Especifica la URL a la que se dirige el enlace.
+- **`target="_blank"`:**  Indica cómo se debe abrir el enlace. El valor `_blank` indica que el enlace se abrirá en una nueva pestaña o ventana del navegador.
+- **`title="Pagina"`:**  Proporciona una breve descripción emergente que puede ayudar al usuario a entender mejor el propósito del enlace antes de hacer clic en él.
+
+
