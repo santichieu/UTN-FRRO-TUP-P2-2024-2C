@@ -137,3 +137,9 @@ Los atributos en HTML son componentes adicionales que se agregan a las etiquetas
 - **`title="Pagina"`:**  Proporciona una breve descripción emergente que puede ayudar al usuario a entender mejor el propósito del enlace antes de hacer clic en él.
 
 
+## Unidad 3: CSS3
+
+## Definición y Uso de CSS:
+**¿Qué es CSS y cuál es su papel en el diseño de páginas web?**
+
+CSS(Cascading style sheets) s un lenguaje utilizado para describir la presentación visual de un documento HTML. Mientras que HTML se encarga de la estructura y el contenido de la página, CSS define como se mostraran esos elementos en termino de diseño, colores, fuentes, disposicion y espaciado.
