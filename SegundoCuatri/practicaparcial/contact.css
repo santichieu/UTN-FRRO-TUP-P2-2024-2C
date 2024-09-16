@@ -1,0 +1,63 @@
+*{
+    font-family: verdana,Arial, sans-serif;
+    cursor: url("copa.png") 16 16, auto;
+}
+
+form{
+    background-color:   #f3f3f3;
+    max-width: 50%;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+}
+label{
+    margin: 10px;
+}
+
+input{
+    display: block;
+    width: 500px;
+    height: 30px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+textarea{
+    display: block;
+    width: 500px;
+    height: 100px;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 3px
+}
+
+.enviar{
+    background-color: #313553;
+    color: white;
+    margin: auto;
+    border-radius: 3px;
+    border-style: none;    
+    width: 515px;
+}
+.return {
+    background-color: #4682b4 ;
+    color: white;
+    display: block;
+    width: 515px;
+    height: 30px;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.enviar:hover{
+    background-image: url("descarga.PNG");
+    background-repeat: no-repeat;
+    object-fit:contain;
+}
+
+.return:hover {
+    background-image: url("Captura.PNG");
+    background-repeat: no-repeat;
+}

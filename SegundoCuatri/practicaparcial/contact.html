@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre...">
+        <label for="email">E-Mail:</label>
+        <input type="email" name="email" id="email" placeholder="Ingrese e-mail..." required>
+        <label for="subject">Subject:</label>
+        <input type="text" name="subject" id="subject" placeholder="Ingrese subject..." required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje" required></textarea>
+
+
+        <input class="enviar" type="submit" value="Enviar">
+        <button class="return" onclick="window.location.href='./prueba.html'">Volver</button>
+    </form>
+    <hr>
+</body>
+</html>

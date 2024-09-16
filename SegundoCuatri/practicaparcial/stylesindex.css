@@ -1,0 +1,91 @@
+*{
+    font-family: verdana,Arial, sans-serif;
+    font-size: 20px;
+    cursor: url("copa.png") 16 16, auto;
+}
+
+img{
+    
+    border: solid 2px 	#444C6C;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.cabecera{
+    border: solid 5px 	#444C6C;
+    display: flex;
+    align-items: center;
+    background-color: 	#444C6C;
+    padding: 20px;
+}
+.stock{
+    background-color: aliceblue;
+    border: solid 5px 	#444C6C;
+    flex: 1;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 1em;
+    padding: 20px;
+}
+button{
+    background-color: #444C6C;
+    border-radius: 1em;
+    border-style: none;
+    padding: 10px;
+    color: white;
+}
+nav{
+    background-color: lightgray;
+    position:absolute;
+    height: 127vh;
+    width: fit-content;
+    flex-direction: column;  
+    padding: 20px;
+    display: flex;
+}
+.main-content{
+    margin-left: 200px;  
+    padding: 10px;
+    overflow: auto; 
+  }
+.titulo{
+    background-color: lightgray;
+    padding: 20px;
+}
+.tabla{
+
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        grid-template-rows: 5fr 1fr;
+         
+}
+h3 {
+    background-color: gray;
+}
+.fondoDivGrid {
+    background-color: #f3f3f3 ;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 10px;
+
+}
+.divLinkedin {
+    background-color: #b6caae;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 10px;
+}
+
+.claseH2Grid {
+    background-color: #008080;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 10px;
+}
+
+button:hover{
+    background-image: url("./descarga.PNG");
+}

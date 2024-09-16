@@ -1,0 +1,40 @@
+*{
+    font-family:Verdana, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header{
+    color: #444C6C;
+    font-size: 24px;
+    padding: 20px;
+}
+
+section{
+    margin-top: 20px;
+    padding: 20px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    border: solid 5px #b49b57;
+    border-radius: 100%;
+}
+
+img:hover{
+    border-color: #444C6C;
+}
+h3{
+    color: #444C6C;
+}
+
+ul{
+    
+    list-style-type: circle;
+    color: green;
+    border: solid 3px #b49b57;
+    border-radius: 0.5em;
+    margin-right: 60%;
+    margin-left: 5px;
+    padding: 10px;
+}
