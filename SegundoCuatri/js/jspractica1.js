@@ -40,3 +40,5 @@ document.write("<br>")
 document.write("DIVISIÓN: ")
 document.write(Number.parseInt(n1)/Number.parseInt(n2))
 document.write("</div>")
+
+
